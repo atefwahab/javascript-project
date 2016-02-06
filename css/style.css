@@ -1,0 +1,319 @@
+html{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Droid Arabic Kufi', sans-serif;
+	background: url('../images/bg.jpg');
+	margin: 0;
+	padding: 0;
+	
+}
+
+header{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 80px;
+	background: black;
+	margin: 0px;
+	padding: 0px;
+	
+}
+
+header img{
+	width: 20%;
+	height: 90%;
+	margin-top: 5px;
+}
+nav{
+	float: right;
+	width: 70%;
+}
+
+
+nav ul{
+	list-style: none;
+	
+	padding: 0px;
+	margin: 0px 10% 0px 0px;
+    width: 90%;
+}
+nav ul li{
+	float: right;
+	margin-top: 5px;
+	margin-right: 5px;
+	width: 12%;
+	color: white;
+	height: 70px
+}
+nav ul li:hover{
+	
+	color: black;
+	background: white;
+	border: 2px grey solid;
+	border-radius: 5px;
+}
+nav ul li a{
+	color: inherit;
+	text-decoration: none;
+	text-align: center;
+	width: 100%;
+	height: 70px;
+	float: right;
+	margin-top: 20px;
+}
+
+footer{
+	width: 100%;
+	background: black;
+	color: white;
+	height: 60px;
+	position: fixed;
+	bottom: 0;
+}
+footer p{
+	
+	text-align: center;
+}
+footer p span{
+	color: red;
+}
+footer p span[id="name"]{
+color: aqua;
+}
+.container{
+	width: 960px;
+	margin: auto;
+	margin-top: 90px;
+	margin-bottom: 70px;
+	
+	
+	
+}
+/*
+//
+//   End of Six pages style 
+//
+*/
+
+
+.content{
+	width: 958px;
+	height: 460px;
+	border: dotted 1px grey;
+	border-radius: 10px;
+	background: white;
+	margin-top: 10px; 
+
+}
+.content img,.smallcontent img, .Largecontent img{
+	width: 250px;
+	height: 250px;
+	border-radius: 20px;
+	float: left;
+	margin: 50px 0 0 40px;
+	border: 1px dotted black;
+}
+.content div,.smallcontent div{
+	height: 400px;
+	width: 600px;
+	float: right;
+	
+	direction: rtl;
+	margin-top: 30px;
+	margin-right: 20px;
+}
+.content div h1,.smallcontent div h1{ 
+	float: right;
+	display: block;
+	width: 100%;
+}
+.content div p,.smallcontent div p{
+	text-align: justify;
+	direction:rtl;
+}
+.content a,.smallcontent a{
+	text-decoration: none;
+	font-weight: bolder;
+	color: blue;
+}
+.content div p span,.smallcontent div p span{
+	font-weight: bolder;
+}
+#headline{
+	text-align: right;
+	width: 940px;
+	margin-top: 30px;
+	margin-right: 20px;
+	height: 20px;
+}
+.content .book{
+	width: 200px;
+	height: 300px;
+	
+	float: right;
+	border: 2px black solid;
+	border-radius: 10px;
+	background: black;
+
+}
+.content .book h6{
+	text-align: center;
+    margin: 0px 0 0px 0;
+    padding: 10px 0 0 0;
+    height: 30px;
+    border-bottom: 2px solid black;
+    background: black;
+    color: white; 
+}
+.content .book img{
+	    width: 198px;
+    height: 255px;
+    border: 2px black solid;
+    border-radius: 10px;
+    margin: 0px 0px 0 0px;
+    padding: 0;
+}
+#finallink{
+	height: 5px;
+    width: 900px;
+    margin-top: 10px;
+}
+#finallink a{
+	float: left;
+}
+/*
+//
+// End of index 
+*/
+.content div iframe{
+	float: right;
+	margin-right: 130px;
+}
+.Largecontent{
+	width: 958px;
+	height: 920px;
+	border: dotted 1px grey;
+	border-radius: 10px;
+	background: white;
+	margin-top: 10px; 
+	margin-bottom: 40px;
+
+}
+.Largecontent .ldiv{
+	height: 400px;
+	width: 600px;
+	float: right;
+	
+	direction: rtl;
+	margin-top: 30px;
+	margin-right: 20px;
+}
+.Largecontent .ldiv h1{ 
+	float: right;
+	display: block;
+	width: 100%;
+}
+.Largecontent .ldiv p{
+	text-align: justify;
+	direction:rtl;
+}
+.Largecontent a{
+	text-decoration: none;
+	font-weight: bolder;
+	color: blue;
+}
+.Largecontent .ldiv p span{
+	font-weight: bolder;
+}
+.Largecontent .content{
+	border: 0;
+	margin-top: 0;
+}
+#me{
+
+	    width: 200px;
+    height: 240px;
+    border: 2px black solid;
+}
+#english{
+	direction: ltr;
+}
+#contact_me{
+	border: 0;
+	border-radius: 0;
+	     width: 250px;
+    height: 217px;
+}
+.smallcontent a img{
+	width: 80px;
+	height: 80px;
+	padding: 0px;
+	margin:0 0px 0 20px;
+
+	border: 0;
+}
+
+.smallcontent .social{
+	width:400px;
+	margin: 40px 0 0 0;
+	height:80px; 
+	padding: 0;
+	
+}
+.smallcontent{
+	height: 380px;
+	width: 958px;
+	border: dotted 1px grey;
+	border-radius: 10px;
+	background: white;
+	margin-top: 10px; 
+
+
+}
+
+.content div .word{
+	width: 850px;
+}
+.content .form{
+	height: 50px;
+	width: 400px;
+	
+    margin: 20px 50px 0 0;
+}
+.content .form label{
+	    width: 130px;
+    display: inline-block;
+}
+.content .form select{
+	width: 170px;
+	height: 20px;
+}
+.content .form textarea{
+	width: 170px;
+
+}
+.content .form input{
+	padding-right: 10px;
+	height:  20px;
+}
+.content input[type="submit"]{
+	width: 170px;
+	height: 30px;
+	margin: 90px 0 0 80px;
+}
+.content h2,.smallcontent h2{
+	font-size: 40px;
+	margin: 100px 40px 0 0;
+}
+.content .ref{
+	    width: 600px;
+    height: 50px;
+    
+    display: inline-block;
+}
+
+#aboutMe, #contact, #contribution, #history, #references{
+	display: none;
+}
